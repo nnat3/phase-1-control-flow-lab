@@ -1,5 +1,5 @@
-function scuberGreetingForFeet(){
- let num1 = 1 >= 3000
+function scuberGreetingForFeet(num1){
+
  if (num1 <= 400) {
     return 'This one is on me!';
  }
@@ -14,10 +14,24 @@ function scuberGreetingForFeet(){
   }
 }
 
-function ternaryCheckCity(){
-  // Write your code here!
+function ternaryCheckCity(destination){
+ if (destination === 'NYC') {
+    return 'Ok, sounds good.';
+ }
+ else {
+    return 'No go.';
+ }
 }
 
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(tip){
+ if (tip === 'generous') {
+    return 'Thank you so much.';
+ }
+ else if (tip === 'not as generous') {
+    return 'Thank you.';
+ }
+ else {
+    return 'Bye.';
+ }
 
 }
